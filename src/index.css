@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'CustomFont1';
+  src: url('/font/92zatBhPNqw73oTd4g.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CustomFont2';
+  src: url('/font/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CustomFont3';
+  src: url('/font/HTxwL3I-JCGChYJ8VI-L6OO_au7B4873z3bWuQ.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CustomFont4';
+  src: url('/font/Jqz55SSPQuCQF3t8uOwiUL-taUTtap9Gayo.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CustomFont5';
+  src: url('/font/KFOlCnqEu92Fr1MmEU9fBBc4%20(1).woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CustomFont6';
+  src: url('/font/KFOmCnqEu92Fr1Mu4mxK%20(1).woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CustomFont7';
+  src: url('/font/Yq6R-LCAWCX3-6Ky7FAFrOF6kg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Modern Negra';
+  src: url('/fonts/Modern Negra Demo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CustomFont1';
+  src: url('/fonts/o-0bIpQmx24alC5A4PNB6Ryti20_6n1iPHjc5a7duw.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CustomFont2';
+  src: url('/fonts/rnCu-xZa_krGokauCeNq1wWyWfSFXQ.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.custom-font {
+  font-family: 'CustomFont1', sans-serif;
+}
+
+.nav-text{
+    font-family: 'CustomFont1';
+}
+
+.nav-text2{
+    font-family: 'CustomFont2';
+}
+.drink-name h1{
+  font-family: 'Modern Negra';
+}
+.page5-title{
+  font-family: 'CustomFont2';
+}
+
+.page5-text{
+  font-family: 'CustomFont4'; 
+}
+.footer-text{
+  font-family: 'CustomFont2';
+}
