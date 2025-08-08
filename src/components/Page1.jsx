@@ -1,12 +1,22 @@
-
-import React from 'react'
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
+import React, { useRef } from 'react'
 
 function Page1() {
-  
+  const videoRef = useRef(null);
+
+  useGSAP(()=>{
+    gsap.from(videoRef.current,{
+      opacity: 0,
+      duration: 0.5,
+      delay:4,
+      ease: 'power3.out',
+    })
+  },[])
   return (
     <div className="hero relative h-[200vh] w-full overflow-hidden">
           <video
-           
+            ref={videoRef}
             data-scroll
             data-scroll-speed="-8"
             data-scroll-direction="vertical"
